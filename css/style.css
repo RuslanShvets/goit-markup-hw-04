@@ -115,6 +115,7 @@ header .container {
 }
 
 .qualities-list-icon {
+  
   width: 70px;
   height: 70px;
   color: var(--title-text-color);
@@ -284,6 +285,7 @@ header .container {
   padding-bottom: 25px;
 }
 .envelope-img {
+  
   width: 16px;
   height: 12px;
   margin-right: 10px;
@@ -301,7 +303,10 @@ header .container {
   color: var(--accent-color);
   fill: var(--accent-color)
 }
-
+.link .head:hover,
+.link .head:focus {
+  fill: var(--accent-color)
+}
 
 
 /* Hero */
