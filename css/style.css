@@ -142,13 +142,23 @@ header .container {
   background-color: #ffffff;
   border-radius: 50%;
 }
+.social-list-icon {
+  width: 20px;
+  height: 20px;
+  color: #AFB1B8;
+}
 
 .social-list-link:hover,
 .social-list-link:focus {
   background-color: var(--accent-color);
-  fill: #ffffff ;
-
+  
 }
+
+.social-list-link:hover .social-list-icon,
+.social-list-link:focus .social-list-icon {
+  fill: var(--text-title-white);
+}
+
 .social-list-icon {
   width: 20px;
   height: 20px;
@@ -497,12 +507,14 @@ header .container {
 .companies-link:hover,
 .companies-link:focus {
    border-color: var(--accent-color);
-   color: var(--accent-color);
+   
  }
  
 
-.img {
-  fill: currentColor;
+ .companies-link:hover .img,
+ .companies-link:focus .img {
+
+  fill: var(--accent-color);
 }
   
 
