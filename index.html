@@ -8,7 +8,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,400;0,500;0,700;1,900&display=swap"
         rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
+    <style>
+        li {
+            list-style-type: none;
+        }
+        a { 
+            text-decoration: none;
+        }
+        
+    </style>    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -24,8 +33,16 @@
             </ul>
         </nav>
         <ul class="contacts-list list">
-            <li class="item"><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li class="item"><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+            <li class="item"><a class="link" href="mailto:info@devstudio.com">
+            <svg class="envelope-img">
+                <use href="./images/sprite.svg#envelope"></use>
+            </svg>info@devstudio.com
+            </a>
+        </li>
+            <li class="item"><a class="link" href="tel:+380961111111">
+                <svg class="phone-img">
+                <use href="./images/sprite.svg#vector"></use>
+            </svg>+38 096 111 11 11</a></li>
         </ul>
         </div>
     </header>
@@ -40,6 +57,39 @@
      <section class="qualities">
             <div class="container">
          <h2 hidden>Oсобливості</h2>
+                    <ul class="qualities-lists">
+                        <li class="qualities-list-item">
+                            <a href="" class="qualities-list-link">
+                                <svg class="qualities-list-icon use">
+                                    <use href="./images/sprite.svg#antena">
+                                    </use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="qualities-list-item">
+                            <a href="" class="qualities-list-link">
+                                <svg class="qualities-list-icon use">
+                                    <use href="./images/sprite.svg#clock">
+                                    </use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="qualities-list-item">
+                            <a href="" class="qualities-list-link">
+                                <svg class="qualities-list-icon use">
+                                    <use href="./images/sprite.svg#computer">
+                                    </use>
+                                </svg>
+                            </a>
+                        </li><li class="qualities-list-item">
+                            <a href="" class="qualities-list-link">
+                                <svg class="qualities-list-icon use">
+                                    <use href="./images/sprite.svg#person">
+                                    </use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
                     <ul class="qualities-list list">
                         <li class="item">
                             <h3 class="title">Внимание к деталям</h3>
@@ -81,6 +131,36 @@
                                 <div class="padding-studio">
                                     <h3 class="name-title">Игорь Демьяненко</h3>
                                     <p class="text">Product Designer</p>
+                                    <ul class="social-list">
+                                        <li class="social-list-items">
+                                            <a href="" class="social-list-link">
+                                                <svg class="social-list-icon">
+                                                    <use href="./images/sprite.svg#instagram"></use>
+                                                </svg>
+                                            </a>
+                                        </li>
+                                        <li class="social-list-items">
+                                            <a href="" class="social-list-link">
+                                                <svg class="social-list-icon">
+                                                    <use href="./images/sprite.svg#twitter"></use>
+                                                </svg>
+                                            </a>
+                                        </li>
+                                        <li class="social-list-items">
+                                            <a href="" class="social-list-link">
+                                                <svg class="social-list-icon">
+                                                    <use href="./images/sprite.svg#facebook"></use>
+                                                </svg>
+                                            </a>
+                                        </li>
+                                        <li class="social-list-items">
+                                            <a href="" class="social-list-link">
+                                                <svg class="social-list-icon">
+                                                    <use href="./images/sprite.svg#linkedin"></use>
+                                                </svg>
+                                            </a>
+                                        </li>
+                                    </ul>
                                 </div>
                             </li>
                             <li class="item">
@@ -88,6 +168,36 @@
                             <div class="padding-studio">
                                     <h3 class="name-title">Ольга Репина</h3>
                                 <p class="text">Frontend Developer</p>
+                                <ul class="social-list">
+                                    <li class="social-list-items">
+                                        <a href="" class="social-list-link">
+                                            <svg class="social-list-icon">
+                                                <use href="./images/sprite.svg#instagram"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social-list-items">
+                                        <a href="" class="social-list-link">
+                                            <svg class="social-list-icon">
+                                                <use href="./images/sprite.svg#twitter"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social-list-items">
+                                        <a href="" class="social-list-link">
+                                            <svg class="social-list-icon">
+                                                <use href="./images/sprite.svg#facebook"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                    <li class="social-list-items">
+                                        <a href="" class="social-list-link">
+                                            <svg class="social-list-icon">
+                                                <use href="./images/sprite.svg#linkedin"></use>
+                                            </svg>
+                                        </a>
+                                    </li>
+                                </ul>
                             </div>
                             </li>
                             <li class="item">
@@ -95,6 +205,36 @@
                                 <div class="padding-studio">
                                     <h3 class="name-title">Николай Тарасов</h3>
                                     <p class="text">Marketing</p>
+                                    <ul class="social-list">
+                                        <li class="social-list-items">
+                                            <a href="" class="social-list-link">
+                                                <svg class="social-list-icon">
+                                                    <use href="./images/sprite.svg#instagram"></use>
+                                                </svg>
+                                            </a>
+                                        </li>
+                                        <li class="social-list-items">
+                                            <a href="" class="social-list-link">
+                                                <svg class="social-list-icon">
+                                                    <use href="./images/sprite.svg#twitter"></use>
+                                                </svg>
+                                            </a>
+                                        </li>
+                                        <li class="social-list-items">
+                                            <a href="" class="social-list-link">
+                                                <svg class="social-list-icon">
+                                                    <use href="./images/sprite.svg#facebook"></use>
+                                                </svg>
+                                            </a>
+                                        </li>
+                                        <li class="social-list-items">
+                                            <a href="" class="social-list-link">
+                                                <svg class="social-list-icon">
+                                                    <use href="./images/sprite.svg#linkedin"></use>
+                                                </svg>
+                                            </a>
+                                        </li>
+                                    </ul>
                                 </div>
                             </li>
                             <li class="item">
@@ -102,6 +242,36 @@
                                 <div class="padding-studio">
                                     <h3 class="name-title">Михаил Ермаков</h3>
                                     <p class="text">UI Designer</p>
+                                    <ul class="social-list">
+                                        <li class="social-list-items">
+                                            <a href="" class="social-list-link">
+                                                <svg class="social-list-icon">
+                                                    <use href="./images/sprite.svg#instagram"></use>
+                                                </svg>
+                                            </a>
+                                        </li>
+                                        <li class="social-list-items">
+                                            <a href="" class="social-list-link">
+                                                <svg class="social-list-icon">
+                                                    <use href="./images/sprite.svg#twitter"></use>
+                                                </svg>
+                                            </a>
+                                        </li>
+                                        <li class="social-list-items">
+                                            <a href="" class="social-list-link">
+                                                <svg class="social-list-icon">
+                                                    <use href="./images/sprite.svg#facebook"></use>
+                                                </svg>
+                                            </a>
+                                        </li>
+                                        <li class="social-list-items">
+                                            <a href="" class="social-list-link">
+                                                <svg class="social-list-icon">
+                                                    <use href="./images/sprite.svg#linkedin"></use>
+                                                </svg>
+                                            </a>
+                                        </li>
+                                    </ul>
                                 </div>
                             </li>
                         </ul>
@@ -109,26 +279,114 @@
                         
                 </div>
             </section>
+
+            <!--companies-->
+            <section class="companies-section">
+                <div class="conteiner">
+                    <h2 class="company-title">Постоянные клиенты</h2>
+                    <ul class="companies">
+                        <li class="companies-names">
+                            <a href="" class="companies-link">
+                                <svg class="company-list-icon1 img">
+                                    <use href="./images/sprite.svg#yago"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="companies-names">
+                            <a href="" class="companies-link">
+                                <svg class="company-list-icon2 img">
+                                    <use href="./images/sprite.svg#company"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="companies-names">
+                            <a href="" class="companies-link">
+                                <svg class="company-list-icon3 img">
+                                    <use href="./images/sprite.svg#company-ball"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="companies-names">
+                            <a href="" class="companies-link">
+                                <svg class="company-list-icon4 img">
+                                    <use href="./images/sprite.svg#points"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="companies-names">
+                            <a href="" class="companies-link">
+                                <svg class="company-list-icon5 img">
+                                    <use href="./images/sprite.svg#brand"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="companies-names">
+                            <a href="" class="companies-link">
+                                <svg class="company-list-icon6 img">
+                                    <use href="./images/sprite.svg#tag-line"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+
+            </section>
     <!--footer-->
     <footer class="footer">
-        <div class="container">
+        <div class="container footer2">
+                <div>
                 <a href="index.html" class="logo"> <span class="web">Web</span><span class="studio">Studio</span></a>
-                <address>
+                <address class="footer1">
                     <span class="address">г. Киев, пр-т Леси Украинки, 26</span>
                     <ul class="list">
                         <li class="item">
                             <a class="info" href="mailto:info@devstudio.com">info@devstudio.com</a>
                         </li>   
-                
-                          
+                                            
                          <li class="item">
                              <a class="info" href="tel:+380961111111">+38 096 111 11 11</a>
                         </li>   
-                
-                           
+                                       
                     </ul>
                 </address>
+                </div>
+        
+            <div class="footer-second-part">
+                <h2 class="footer-second-title">присоединяйтесь</h2>
+                <ul class="social-list">
+                    <li class="social-list-items">
+                        <a href="" class="social-list-link-footer">
+                            <svg class="social-list-icon-footer">
+                                <use href="./images/sprite.svg#instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-list-items">
+                        <a href="" class="social-list-link-footer">
+                            <svg class="social-list-icon-footer">
+                                <use href="./images/sprite.svg#twitter"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-list-items">
+                        <a href="" class="social-list-link-footer">
+                            <svg class="social-list-icon-footer">
+                                <use href="./images/sprite.svg#facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-list-items">
+                        <a href="" class="social-list-link-footer">
+                            <svg class="social-list-icon-footer">
+                                <use href="./images/sprite.svg#linkedin"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    </ul>
+            </div>
         </div>
+        
     </footer>
 </body>
 </html>
