@@ -467,13 +467,14 @@ header .container {
 /* companies*/
 .companies-section {
   height: 370px;
-  margin-top: 94px;
+
 
 }
 
 .companies {
   display: flex;
   align-items: center;
+  margin-bottom: 0px;
 }
 
 .companies-link {
@@ -491,7 +492,8 @@ header .container {
   letter-spacing: 0.03em;
   color: #212121;
   margin-bottom: 50px;
-}
+  margin-top: 0px;
+  padding-top: 94px;}
 
 
 .companies-link {
