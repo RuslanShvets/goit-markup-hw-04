@@ -302,10 +302,18 @@ header .container {
 
 /* Hero */
 .hero {
-  background-color: var(--background-color-blue);
+   
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
+  background-image: linear-gradient(
+ rgba(47, 48, 58, 0.4),
+  rgba(47, 48, 58, 0.4)
+  ),
+   url(../images/Hero/Img\ hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 .hero .container {
