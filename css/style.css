@@ -297,7 +297,7 @@ header .container {
 
 /* Hero */
 .hero {
-   
+  max-width: 1600px; 
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
