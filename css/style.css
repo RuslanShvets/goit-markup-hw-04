@@ -30,6 +30,7 @@ body {
   color: var(--general-color-text);
   font-family: roboto, sans-serif;
   letter-spacing: 0.03em;
+  width: 1600px;
 }
 
 /* logo */
