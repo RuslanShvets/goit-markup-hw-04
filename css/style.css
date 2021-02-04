@@ -125,8 +125,9 @@ header .container {
   display: flex;
   justify-content: space-between;
   padding-left: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  
 }
 
 .social-list-link {
@@ -663,11 +664,11 @@ button {
 }
 
 .portfolio .link {
-  width: 370px;
-  height: 404px;
+  display: block;
+
 }
-.link .padding-portfolio:hover,
-.link .padding-portfolio:focus {
+.portfolio .link:hover,
+.portfolio .link:focus {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
 }
