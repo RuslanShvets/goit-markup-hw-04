@@ -30,7 +30,7 @@ body {
   color: var(--general-color-text);
   font-family: roboto, sans-serif;
   letter-spacing: 0.03em;
-  width: 1600px;
+
 }
 
 /* logo */
@@ -298,6 +298,9 @@ header .container {
 /* Hero */
 .hero {
   max-width: 1600px; 
+  height: 600px;
+  margin-right: auto;
+  margin-left: auto;
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
