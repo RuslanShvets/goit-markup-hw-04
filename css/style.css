@@ -453,6 +453,7 @@ header .container {
 
 .team-section {
   background-color: var(--bgc-team);
+  max-width: 1600px;
 }
 
 .team-section .item {
