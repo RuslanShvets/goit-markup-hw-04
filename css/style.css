@@ -453,6 +453,11 @@ header .container {
 
 .team-section {
   background-color: var(--bgc-team);
+  align-content: center;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+
   max-width: 1600px;
 }
 
